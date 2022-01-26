@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stepform.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>TAMBUE CLUB</h1>
+    </header>
+    <div class="container">
+        <form id="form1">
+        <h3>CREATE AN ACCOUNT</h3>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="password" required>
+        <input type="password" placeholder="confirm password" required>
+
+        <div class="btn-box">
+            <button type="button" id="next1">next</button>
+        </div>
+        </form>
+
+
+        <form id="form2">
+            <h3>SOCIAL LINKS</h3>
+            <input type="text" placeholder="Medium">
+            <input type="text" placeholder="GitHub">
+            <input type="text" placeholder="linkedin">
+    
+            <div class="btn-box">
+                <button type="button" id="back1">back</button>
+                <button type="button" id="next2">next</button>
+            </div>
+        </form>
+
+        <form id="form3">
+            <h3>PERSONAL INFORMATION</h3>
+            <input type="text" placeholder="First Name" required>
+            <input type="text" placeholder="Last Name" required>
+            <input type="telephone" placeholder="Phone number" required>
+    
+            <div class="btn-box">
+                <button type="button" id="back2">back</button>
+                <button type="submit">REGISTER</button>
+            </div>
+        </form>
+
+        <dvi class="step-row">
+
+            <div id="progress"></div>
+            <div class="step-col"><small>security</small></div>
+            <div class="step-col"><small>social</small></div>
+            <div class="step-col"><small>info</small></div>
+        </dvi>
+
+    </div>
+    <script src="stepform.js"></script>
+</body>
+</html>
